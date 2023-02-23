@@ -470,6 +470,24 @@ Here are the results.
 ![Result](https://res.cloudinary.com/practicaldev/image/fetch/s--B1tTvRSO--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/685yuqku1c8mz1xcaimc.png)
 ![Result](https://res.cloudinary.com/practicaldev/image/fetch/s--s8ncoClG--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/up6yc28lo9j3vccl5r7y.png)
 
+
+## Push To Git
+###…or create a new repository on the command line
+```bash
+echo "# simpeAPI_laravel9" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rmaw22/simpeAPI_laravel9.git
+git push -u origin main
+```
+###…or push an existing repository from the command line
+```bash
+git remote add origin https://github.com/rmaw22/simpeAPI_laravel9.git
+git branch -M main
+git push -u origin main
+```
 ### Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
