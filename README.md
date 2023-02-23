@@ -486,7 +486,6 @@ If you discover any security related issues, please email marcel@beyondco.de ins
 
 ## Credits
 
-- [Marcel Pociot](https://github.com/mpociot)
 - [All Contributors](../../contributors)
 
 ## License
